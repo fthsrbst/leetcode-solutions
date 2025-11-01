@@ -28,6 +28,7 @@ Each problem has its own directory with:
 | # | Problem | Difficulty | Solution | Topics |
 |---|---------|-----------|----------|---------|
 | 1 | [Two Sum](./0001-two-sum) | Easy | [C++](./0001-two-sum/solution.cpp) | Array, Hash Table |
+| 217 | [Contains Duplicate](./0217-contains-duplicate) | Easy | [C++](./0217-contains-duplicate/solution.cpp) | Array, Hash Table |
 
 ## Running the Code
 
@@ -47,8 +48,8 @@ Or use the provided VS Code tasks for building.
 
 ## Progress
 
-- **Total Solved:** 1
-- **Easy:** 1
+- **Total Solved:** 2
+- **Easy:** 2
 - **Medium:** 0
 - **Hard:** 0
 
