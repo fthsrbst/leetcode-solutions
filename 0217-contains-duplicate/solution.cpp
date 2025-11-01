@@ -1,5 +1,5 @@
 #include <iostream>
-#include <unordered_map>
+#include <unordered_set>
 #include <vector>
 
 using namespace std;
@@ -7,14 +7,15 @@ using namespace std;
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
-        unordered_map<int, int> seen;
+        unordered_set<int> seen;
+        seen.reserve(nums.size());
+        seen.max_load_factor(0.7f);
         
         for (int i = 0; i < nums.size(); i++) {
-            int number = nums[i];
-            if (seen.find(number) != seen.end()) {
+            if (seen.find(nums[i]) != seen.end()) {
                 return true;
             }
-            seen[number] = i;
+            seen.insert(nums[i]);
         }
         return false;
     }

@@ -25,16 +25,22 @@ Output: true
 
 ## Solution Approach
 
-**Hash Map**
+**Hash Set (Optimized)**
 
-- Iterate through the array and store each number in a hash map
-- Before adding a number, check if it already exists in the map
+- Use an unordered set to track seen numbers
+- Optimize performance with `reserve()` and `max_load_factor()`
+- For each number, check if it exists in the set
 - If found, return true (duplicate exists)
-- If loop completes without finding duplicates, return false
+- Otherwise, insert the number and continue
+- If loop completes, return false
 
 **Complexity:**
 - Time: O(n)
 - Space: O(n)
+
+**Optimization:**
+- `reserve()` pre-allocates memory to avoid rehashing
+- `max_load_factor(0.7f)` reduces hash collisions
 
 ## Implementation
 
