@@ -30,6 +30,7 @@ Each problem has its own directory with:
 | 1 | [Two Sum](./0001-two-sum) | Easy | [C++](./0001-two-sum/solution.cpp) | Array, Hash Table |
 | 217 | [Contains Duplicate](./0217-contains-duplicate) | Easy | [C++](./0217-contains-duplicate/solution.cpp) | Array, Hash Table |
 | 219 | [Contains Duplicate II](./0219-contains-duplicate-ii) | Easy | [C++](./0219-contains-duplicate-ii/solution.cpp) | Array, Hash Table, Sliding Window |
+| 242 | [Valid Anagram](./0242-valid-anagram) | Easy | [C++](./0242-valid-anagram/solution.cpp) | String, Hash Table, Sorting |
 
 ## Running the Code
 
@@ -49,8 +50,8 @@ Or use the provided VS Code tasks for building.
 
 ## Progress
 
-- **Total Solved:** 3
-- **Easy:** 3
+- **Total Solved:** 4
+- **Easy:** 4
 - **Medium:** 0
 - **Hard:** 0
 
